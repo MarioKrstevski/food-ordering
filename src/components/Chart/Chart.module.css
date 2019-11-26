@@ -1,0 +1,27 @@
+.Piechart{
+    position: relative;
+}
+
+.orderButton{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: aquamarine;
+
+    padding: 7px 14px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.center{
+    height: calc(100vh - 250px);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.orderButton:active {
+    background-color: #72e5be;
+}

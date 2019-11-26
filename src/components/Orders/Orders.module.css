@@ -1,0 +1,50 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.orderWindow {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    width: auto;
+    max-width: 400px;
+}
+
+.chat {
+    width: 80%;
+}
+
+.input {
+    margin-top: 10px;
+    display: flex;
+    height: 30px;
+    box-sizing: border-box;
+}
+.orderInput {
+    width: 75%;
+    margin-right: -2px;
+    border-radius: 3px;
+    height: 100%;
+    padding: 10px;
+}
+.orderInput::placeholder {
+    font: 15px;
+    color: black;
+}
+.orderButton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: aquamarine;
+    height: 100%;
+    width: 24.5%;
+}
+
+.orderButton:hover {
+    background-color: #72e5be;
+}
