@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
     "formik": "^2.0.6",
     "primeicons": "^2.0.0",
